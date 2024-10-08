@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  }
+}

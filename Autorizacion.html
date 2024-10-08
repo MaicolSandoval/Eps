@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <title>Bootstrap Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./Styles/Styles.css">
+</head>
+
+<body>
+  <div class="card-body" style="text-align: center; padding: 35px 50px 15px 50px;">
+    <div style="padding-bottom: 15px;">
+      <h5 class="card-title">Autorización de tramites</h5>
+    </div>
+
+    <form class="row g-4">
+      <div class="col-md-12" style="padding-bottom: 10px;">
+        <label for="inputEmail4" class="form-label">Paciente:</label><br>
+        <h6 id="lblUsuAutorizacion"></h6>
+      </div>
+      <div class="col-md-10">
+        <label for="inputState" class="form-label">Selecciona el tipo de tramite que deseas consultar (*)</label>
+        <select id="inputState" class="form-select">
+          <option selected>Autorización de examenes</option>
+          <option>Autorización de medicamentos</option>
+          <option>Autorización de cita con especialista</option>
+        </select>
+      </div>
+      <div class="col-2">
+        <div class="col-4 bg-primary" id="consultaAuto"
+          style="padding-bottom: 5px; padding-top: 5px; border-radius: 10px; color: white; cursor: pointer; width: 90px;">
+          <label>Buscar</label>
+        </div>
+      </div>
+
+    </form>
+    <div style="margin-top: 10px;" id="contTable">
+      <table class="table">
+        <thead>
+          <tr class="table-primary">
+            <th scope="col">Tramite</th>
+            <th scope="col">Solicitud</th>
+            <th scope="col">Aprobado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Solicitud de medicamento acetaminofén</td>
+            <td><input type="checkbox" checked></td>
+            <td><i class="bi bi-check2"></i>
+            </td>
+          </tr>
+          <tr>
+            <td>Solicitud de radiografia</td>
+            <td><input type="checkbox" checked></td>
+            <td><i class="bi bi-check2"></i>
+            </td>
+          </tr>
+          <tr>
+            <td>Solicitud de cita audiometria</td>
+            <td><input type="checkbox" checked></td>
+            <td><i class="bi bi-x-lg"></i>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+<script type="module" src="./Scripts/Scripts.js"></script>
+
+</html>

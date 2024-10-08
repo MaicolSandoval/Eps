@@ -1,0 +1,16 @@
+[
+    {
+        "Tipo documento":"Cc",
+        "Nombres":"Michael",
+        "Apellidos":"Sandoval",
+        "NumeroDocumento":"1031175598",
+        "Contraseña":"Mdsl1098"
+    },
+    {
+        "Tipo documento":"Cc",
+        "Nombres":"Pedro",
+        "Apellidos":"Sandoval",
+        "NumeroDocumento":"103117559820",
+        "Contraseña":"Mdsl1098"
+    }
+]

@@ -1,0 +1,25 @@
+.divItemsMenu{
+    height: 35px
+}
+.itemsMenu{
+    margin-top: 15px;
+    cursor: pointer;
+}
+footer {
+    background-color: #EBFFEE;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+footer div {
+    width: 25%;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.image {
+    filter: brightness(50%); /* Reduce el brillo al 50% */
+}

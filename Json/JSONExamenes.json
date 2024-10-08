@@ -1,0 +1,18 @@
+[
+    {
+        "Año":"2024",
+        "Mes":"Enero",
+        "TipoDeExamen":"Examen de sangre",
+        "Nombres":"Michael",
+        "Apellidos":"Sandoval",
+        "NumeroDocumento":"1031175598"
+    },
+    {
+        "Año":"2024",
+        "Mes":"Enero",
+        "TipoDeExamen":"Electro cardiograma",
+        "Nombres":"Michael",
+        "Apellidos":"Sandoval",
+        "NumeroDocumento":"1031175598"
+    }
+]
